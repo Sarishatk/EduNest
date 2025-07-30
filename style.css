@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    border: 5px solid #00c9a7;
+background-color: #f8f9fa;
+    
+}
+.btn{
+    background-color: #00c9a7;
+    color: white;
+    width: 150px;
+}
+.second-btn{
+    background-color: white;
+    color: black;
+    
+}
+.footer{
+    background-color: #00c9a7;
+    height: 60px;
+    margin-top: 70px;
+}
