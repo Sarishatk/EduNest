@@ -26,6 +26,7 @@ background-color: #f8f9fa;
     margin-top: 70px;
 }
 .signin-body{
- background-image: url("./assests/bg1.jpg");
- background-size: cover;
-}
+background-image: linear-gradient(to right, #bf75f6, #d87cdf, #ec85bc);}
+
+
+
