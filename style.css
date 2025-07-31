@@ -3,7 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
-body{
+.index{
     width: 100vw;
     height: 100vh;
     border: 5px solid #00c9a7;
@@ -26,5 +26,6 @@ background-color: #f8f9fa;
     margin-top: 70px;
 }
 .signin-body{
-   background-color: #00c9a7;
+ background-image: url("./assests/bg1.jpg");
+ background-size: cover;
 }
