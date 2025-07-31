@@ -26,6 +26,5 @@ background-color: #f8f9fa;
     margin-top: 70px;
 }
 .signin-body{
-    background-image: url("./assests/bg_cleanup.jpg");
-    background-size: cover;
+   background-color: #00c9a7;
 }
