@@ -20,64 +20,135 @@
 
 </head>
 
-<body class="entrol-body" style="width: 100vw ;height: 100vh;">
-    <div class="container d-flex align-items-center justify-content-center">
-        <div class="row mt-3">
-            <div class="col-lg-3  ">
-                <div class="card shadow" style="width: 18rem;">
-                    <img style="height: 150px;" src="./assests/mern.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title text-center fw-bolder">Mern Stack</h5>
-                        <p class="card-text text-center"> MERN Stack uses MongoDB, Express, React & Node to build
-                            full-stack web apps.</p>
-                        <div class="d-flex justify-content-center">
-                            <div> <a href="#" class="btn btn-primary signin">Cart to</a></div>
-                        </div>
-                    </div>
-                </div>
+<body class="entrol-body bg-color-voilet" style="width: 100vw ;height: 100vh;">
+<!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary w-100">
+  <div class="container-fluid">
+    <a class="navbar-brand fs-2 fw-bold" href="../index.html">Ed-Tech.</a>
+
+   
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fs-5">
+        <li class="nav-item px-2">
+          <a class="nav-link" href="../index.html">Home</a>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link" href="./About.html">About</a>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link active" aria-current="page" href="./courses.html">Courses</a>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link" href="./contact.html">Contacts</a>
+        </li>
+      </ul>
+
+      <form class="d-flex" role="search">
+        <button class="btn btn-outline-voilet me-3" type="button">
+          <a class="nav-link" href="./signin.html">Sign-in</a>
+        </button>
+        <button class="btn btn-voilet" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Free Trial
+        </button>
+      </form>
+
+    </div>
+  </div>
+</nav>
+<!-- Navbar End -->
+
+    <!-- navbar grid end -->
+
+    <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-6" id="exampleModalLabel">Get your Free Trial!</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="col-lg-3 ">
-                <div class="card" style="width: 18rem;">
-                    <img style="height: 150px;" src="./assests/istockphoto-537331500-612x612.jpg" class="card-img-top"
-                        alt="">
-                    <div class="card-body">
-                        <h5 class="card-title text-center fw-bolder">Python Django</h5>
-                        <p class="card-text text-center"> Django is a high-level Python web framework for building
-                            secure and
-                            scalable web apps fast.</p>
-                        <div class="d-flex justify-content-center">
-                            <div> <a href="#" class="btn btn-primary signin">Cart to</a></div>
-                        </div>
-                    </div>
-                </div>
+            <div class="modal-body">
+              <input type="text" placeholder="Enter your email " class="modal-input w-100 p-2 rounded-3">
             </div>
-            <div class="col-lg-3 ">
-                <div class="card" style="width: 18rem;">
-                    <img style="height: 150px;" src="./assests/aia.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title text-center fw-bolder">Artificial intelligence</h5>
-                        <p class="card-text text-center"> Learn the fundamentals of Artificial Intelligence, including
-                            machine learning and neural networks.</p>
-                        <div class="d-flex justify-content-center">
-                            <div> <a href="#" class="btn btn-primary signin">Cart to</a></div>
-                        </div>
-                    </div>
-                </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-voilet" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-voilet">Submit</button>
             </div>
-            <div class="col-lg-3 ">
-                 <div class="card" style="width: 18rem;">
-                    <img style="height: 150px;" src="./assests/aia.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title text-center fw-bolder">Data Science</h5>
-                        <p class="card-text text-center">  Master data analysis, visualization, and machine learning with real-world datasets.</p>
-                        <div class="d-flex justify-content-center">
-                            <div> <a href="#" class="btn btn-primary signin">Cart to</a></div>
+          </div>
+        </div>
+      </div>
+  <!-- Courses Start -->
+
+<div class="container ">
+    <div class="row justify-content-center mb-2 py-5 popular-row ">
+                <div class="col-md-9">
+    
+                  <h3 class="fs-3 mb-3 text-center text-white fw-bolder">Our Popular Courses</h3>
+                  <p class="course-para-tag text-white text-center">Discover our most sought-after courses, carefully curated to meet the demands of today's learners. Dive into engaging content crafted for success in every step of your educational journey.</p>
+          
+              </div>
+               <div class="row mt-5">
+                <div class="col-lg-4  mb-3">
+                    <div class="card rounded shadow" style="width: 18rem;">
+                        <img style="height: 150px;" src="./assests/mern.jpeg" class="card-img-top p-2  rounded-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center fw-bolder">Mern Stack</h5>
+                            <p class="card-text text-center"> MERN Stack uses MongoDB, Express, React & Node to build
+                                full-stack web apps.</p>
+                            <div class="d-flex justify-content-center">
+                                <div> <a href="#" class="btn signin">Cart to</a></div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-4 mb-3">
+                    <div class="card" style="width: 18rem;">
+                        <img style="height: 150px;" src="./assests/istockphoto-537331500-612x612.jpg" class="card-img-top p-2"
+                            alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-center fw-bolder">Python Django</h5>
+                            <p class="card-text text-center"> Django is a high-level Python web framework for building
+                                secure and
+                                scalable web apps fast.</p>
+                            <div class="d-flex justify-content-center">
+                                <div> <a href="#" class="btn y signin">Cart to</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3 ">
+                    <div class="card" style="width: 18rem;">
+                        <img style="height: 150px;" src="./assests/aia.jpeg" class="card-img-top p-2" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center fw-bolder">Artificial intelligence</h5>
+                            <p class="card-text text-center"> Learn the fundamentals of Artificial Intelligence, including
+                                machine learning and neural networks.</p>
+                            <div class="d-flex justify-content-center">
+                                <div> <a href="#" class="btn  signin">Cart to</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
             </div>
         </div>
-    </div>
+</div>
+     <!-- Courses end -->
+
+             
+
+
+
+
+ </div>
+ <!-- Container fluid end -->
 </body>
 
 </html>
