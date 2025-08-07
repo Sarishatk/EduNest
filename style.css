@@ -1,38 +1,43 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-.index{
+
+.index {
     width: 100vw;
     height: 100vh;
-background-color: #f8f9fa;
-    
+    background-color: #f8f9fa;
+
 }
-.btn{
+
+.btn {
     background-color: #00c9a7;
     color: white;
     width: 150px;
 }
-.second-btn{
+
+.second-btn {
     background-color: white;
     color: black;
-    
+
 }
-.footer{
+
+.footer {
     background-color: #00c9a7;
     height: 60px;
     margin-top: 70px;
 }
-.signin-body{
-background-image: linear-gradient(to right, #bf75f6, #d87cdf, #ec85bc);}
 
-.signin:active{
-    box-shadow: inset 5px 5px 10px white, inset -5px -5px white;
-   
+.signin-body {
+    background-image: linear-gradient(to right, #bf75f6, #d87cdf, #ec85bc);
 }
-.entrol-body{
+
+.signin:active {
+    box-shadow: inset 5px 5px 10px white, inset -5px -5px white;
+
+}
+
+.entrol-body {
     background-color: #bf75f6;
 }
-
-
